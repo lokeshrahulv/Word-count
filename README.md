@@ -19,17 +19,20 @@ The splited and stored in the variable, use len() function of the splited word v
 End the program.
 ## PROGRAM:
 ```
+Developed by: LOKESH RAHUL V V
+Register no: 22004702
+
 num_words=0
-with open('text.txt','r') as f1:         
-    for i in f1:
+with open('a.txt','r') as file1:         
+    for i in file1:
         word=i.split()
         num_words+=len(word)
-print("Number of words in a file = {}".format(num_words))
+print("Number of words= ",num_words)
 ```
 ### OUTPUT:
-![image](https://user-images.githubusercontent.com/118423842/214000031-0c06fd61-c6f6-4ac1-830f-04cf7770f941.png)
 
-
+![copy1](https://user-images.githubusercontent.com/118423842/214761948-cc5cda70-7421-4fee-981f-bdc3bb0f0452.jpg)
+![copy2](https://user-images.githubusercontent.com/118423842/214761976-862d340f-5ec5-47d4-9627-226d6978d878.jpg)
 
 ## RESULT:
 Thus the program is written to find the word count from a text.
